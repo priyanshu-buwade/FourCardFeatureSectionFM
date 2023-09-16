@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: hsl(0, 0%, 98%);
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+.upper-body {
+    width: 500px;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#heading1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: -20px;
+}
+
+#heading2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+}
+
+.lower-body {
+    height: 650px;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.lower-body h2 {
+    color: hsl(234, 12%, 34%);
+}
+
+.inner-div {
+    height: 210px;
+    width: 310px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px -5px hsl(234, 55%, 79%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 5px solid;
+}
+
+.inner-div1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: hsl(180, 62%, 55%);
+}
+
+.inner-div2 {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.inner-div3 {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.inner-div4 {
+    border-color: hsl(212, 86%, 64%);
+}
+
+.text {
+    margin-top: -20px;
+}
+
+.text p {
+    margin-top: -10px;
+}
+
+.inner-image {
+    text-align: right;
+}
+
+@media screen and (max-width: 1250px) {
+    .lower-body {
+        width: 770px;
+    }
+
+    .inner-div1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .lower-body {
+        height: 100%;
+        width: 370px;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .upper-body {
+        width: 375px;
+    }
+
+    #heading1,
+    #heading2 {
+        font-size: 26px;
+    }
+
+    #heading3 {
+        padding: 0 40px;
+    }
+}
